@@ -1,0 +1,176 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f7fa;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            padding: 2.5rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #0a66c2;
+            margin-bottom: 0.25rem;
+        }
+        .subhead {
+            font-size: 1.3rem;
+            color: #555;
+            border-bottom: 2px solid #eaeef2;
+            padding-bottom: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+        .contact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            background: #f0f3f7;
+            padding: 1rem 1.5rem;
+            border-radius: 50px;
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+        }
+        .contact a {
+            color: #0a66c2;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 2.5rem;
+        }
+        .section h2 {
+            font-size: 1.8rem;
+            font-weight: 500;
+            color: #0a2b4b;
+            border-left: 5px solid #0a66c2;
+            padding-left: 1rem;
+            margin-bottom: 1.25rem;
+        }
+        .section h3 {
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: #1e3a5f;
+            margin: 1rem 0 0.5rem;
+        }
+        .achievement-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        .achievement-card {
+            background: #f8fafd;
+            padding: 1.25rem;
+            border-radius: 10px;
+            border-left: 4px solid #0a66c2;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem 2rem;
+            background: #f8fafd;
+            padding: 1.5rem;
+            border-radius: 12px;
+        }
+        .skill-cat {
+            flex: 1 1 200px;
+        }
+        .skill-cat strong {
+            display: block;
+            color: #0a2b4b;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+        .skill-items {
+            list-style: none;
+        }
+        .skill-items li {
+            margin-bottom: 0.25rem;
+            font-size: 0.95rem;
+        }
+        .job {
+            margin-bottom: 2rem;
+        }
+        .job-header {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.25rem;
+        }
+        .job-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #0a2b4b;
+        }
+        .company {
+            font-weight: 500;
+            color: #2c3e50;
+        }
+        .date {
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+        .job-description {
+            margin-top: 0.5rem;
+            padding-left: 1.2rem;
+        }
+        .job-description li {
+            margin-bottom: 0.5rem;
+        }
+        .cert-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 0.5rem;
+        }
+        .cert-item {
+            background: #e6f0ff;
+            padding: 0.4rem 1rem;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #0a66c2;
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 1rem;
+            transition: background 0.2s;
+        }
+        .download-btn:hover {
+            background: #084e94;
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 1.5rem 0;
+        }
+        .resume-note {
+            margin-top: 1rem;
+        }
+    
